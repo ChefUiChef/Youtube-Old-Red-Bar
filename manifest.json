@@ -1,22 +1,20 @@
 {
-
   "manifest_version": 3,
-  "name": "Youtube Old Red Bar",
-  "version": "1.0",
+  "name": "Youtube Red Bar",
+  "version": "1.2",
   "description": "Change that youtube's bar to bring the full red back",
+  "permissions": [],
   "icons": {
-	"48": "icons/icon-48.png",
-	"64": "icons/icon-64.png",
-	"128": "icons/icon-128.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "128": "icons/icon-128.png",
     "512": "icons/icon.png"
   },
-  "permissions": [
-    "https://youtube.com"
-  ],
-  "content_scripts": [
+
+  "content_scripts":[
     {
-		"matches": ["https://www.youtube.com/*"],
-		"js": ["contentScript.js"]
+      "matches": [ "https://www.youtube.com/*" ],
+      "js": [ "YTRB_Extension.js" ]
     }
   ]
 }
