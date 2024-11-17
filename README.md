@@ -2,8 +2,10 @@
 source code of the chrome extension that brings back the old red bar.
 
 ## The Extension can be foun here on :
-- Chrome Web Store : https://chromewebstore.google.com/detail/youtube-red-bar/lemkglfpakaaccgploieacbnpeeaemaf
-- Firefox Add-Ons : https://addons.mozilla.org/firefox/addon/youtube-red-bar (here, the extension needs to be examed)
+- Chrome Web Store :
+  > https://chromewebstore.google.com/detail/youtube-red-bar/lemkglfpakaaccgploieacbnpeeaemaf
+- Firefox Add-Ons :
+  > https://addons.mozilla.org/firefox/addon/youtube-red-bar (here, the extension needs to be examed)
 
 # Privacy Policies:
 
