@@ -5,13 +5,13 @@
 }
 
 /* Progress bar under "shorts" videos */
-.YtProgressBarLineProgressBarPlayedRefresh
+.ytProgressBarLineProgressBarPlayedRefresh
 {
 	background: #FF0030 !important;
 }
+
 /* Progress bar under the  video sugestions*/
-ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer
-{
+ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
 	background: #FF0030 !important;
 }
 
