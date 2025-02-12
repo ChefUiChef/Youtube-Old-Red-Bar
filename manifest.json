@@ -20,7 +20,6 @@
     {
       "matches": [ "https://*.youtube.com/*" ],
       "resources": [ "YTRB_Style.css" ]
-
     }
   ]
 }
