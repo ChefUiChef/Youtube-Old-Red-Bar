@@ -1,25 +1,24 @@
 {
   "manifest_version": 3,
   "name": "Youtube Red Bar",
-  "version": "1.4",
+  "version": "1.5",
   "description": "Change that youtube's bar to bring the full red back",
   "permissions": [],
   "icons": {
     "48": "icons/icon-48.png",
     "64": "icons/icon-64.png",
-    "128": "icons/icon-128.png",
-    "512": "icons/icon.png"
+    "128": "icons/icon-128.png"
   },
 
   "content_scripts": [
     {
-      "matches": [ "https://www.youtube.com/*" ],
+      "matches": [ "https://*.youtube.com/*" ],
       "js": [ "YTRB_Extension.js" ]
     }
   ],
   "web_accessible_resources": [
     {
-      "matches": [ "https://www.youtube.com/*" ],
+      "matches": [ "https://*.youtube.com/*" ],
       "resources": [ "YTRB_Style.css" ]
 
     }

@@ -1,5 +1,11 @@
-/* Main progress bar under the classic videos we're watching */
+/* (Outlated) Main progress bar under the classic videos we're watching */
 .ytp-cairo-refresh-signature-moments .ytp-play-progress
+{
+	background:#FF0030 !important;
+}
+
+/* New Main progress bar */
+.ytp-play-progress
 {
 	background:#FF0030 !important;
 }
@@ -10,7 +16,7 @@
 	background: #FF0030 !important;
 }
 
-/* Progress bar under the  video sugestions*/
+/* Progress bar under the video sugestions*/
 ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
 	background: #FF0030 !important;
 }
