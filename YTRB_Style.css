@@ -26,3 +26,9 @@ yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-p
 {
 	background: #FF0030 !important;
 }
+
+/* Progress bar for the mini player */
+.ytProgressBarLineProgressBarPlayed
+{
+	background: #FF0030 !important;
+}
