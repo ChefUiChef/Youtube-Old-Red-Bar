@@ -1,14 +1,15 @@
-/* (Outlated) Main progress bar under the classic videos we're watching */
+/* Main progress bar under the classic videos we're watching */
+/* Old */
 .ytp-cairo-refresh-signature-moments .ytp-play-progress
 {
 	background:#FF0030 !important;
 }
-
-/* New Main progress bar */
+/* New */
 .ytp-play-progress
 {
 	background:#FF0030 !important;
 }
+
 
 /* Progress bar under "shorts" videos */
 .ytProgressBarLineProgressBarPlayedRefresh
@@ -16,16 +17,32 @@
 	background: #FF0030 !important;
 }
 
+
 /* Progress bar under the video sugestions*/
-ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+/* Old */
+ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer
+{
+	background: #FF0030 !important;
+}
+/* New */
+#progress.ytd-thumbnail-overlay-resume-playback-renderer
+{
 	background: #FF0030 !important;
 }
 
+
 /* Progress bar refresh above the website */
+/* Old */
 yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-page-navigation-progress
 {
 	background: #FF0030 !important;
 }
+/* New */
+#progress.yt-page-navigation-progress
+{
+	background: #FF0030 !important;
+}
+
 
 /* Progress bar for the mini player */
 .ytProgressBarLineProgressBarPlayed

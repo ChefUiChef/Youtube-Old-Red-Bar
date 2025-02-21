@@ -1,4 +1,4 @@
-const version = '1.6';
+const version = '1.7';
 console.info("Youtube Red Bar Launched! (V",version,")");
 
 // Directory of the CSS File
